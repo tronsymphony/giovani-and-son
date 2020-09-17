@@ -1,0 +1,46 @@
+2020-09-16T06:04:50+00:00 CRITICAL Uncaught Error: Call to undefined function is_frontpage() in /var/www/html/wp-content/themes/wptemplate/functions.php:10
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): atulhost_optimize_scripts('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/general-template.php(3006): do_action('wp_head')
+#8 /var/www/html/wp-content/themes/wptemplate/header.php(14): wp_head()
+#9 /var/www/html/wp-includes/template.php(730): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-includes/template.php(676): load_template('/var/www/html/w...', true, A in /var/www/html/wp-content/themes/wptemplate/functions.php on line 10
+
+2020-09-16T06:04:52+00:00 CRITICAL Uncaught Error: Call to undefined function is_frontpage() in /var/www/html/wp-content/themes/wptemplate/functions.php:10
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): atulhost_optimize_scripts('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/general-template.php(3006): do_action('wp_head')
+#8 /var/www/html/wp-content/themes/wptemplate/header.php(14): wp_head()
+#9 /var/www/html/wp-includes/template.php(730): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-includes/template.php(676): load_template('/var/www/html/w...', true, A in /var/www/html/wp-content/themes/wptemplate/functions.php on line 10
+
+2020-09-16T06:10:12+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/composer/autoload_classmap_package.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php on line 183
+
+2020-09-16T06:10:14+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/composer/autoload_classmap_package.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php on line 183
+
+2020-09-16T06:10:14+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/composer/autoload_classmap_package.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php on line 183
+
+2020-09-16T06:11:22+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/woocommerce-payments.php on line 26
+
+2020-09-16T06:11:23+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/woocommerce-payments.php on line 26
+
+2020-09-16T06:11:23+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/woocommerce-payments.php on line 26
+
+2020-09-16T06:11:50+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/woocommerce-payments.php on line 26
+
+2020-09-16T06:11:53+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/woocommerce-payments.php on line 26
+
+2020-09-16T06:11:53+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/woocommerce-payments/vendor/autoload_packages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/woocommerce-payments/woocommerce-payments.php on line 26
+

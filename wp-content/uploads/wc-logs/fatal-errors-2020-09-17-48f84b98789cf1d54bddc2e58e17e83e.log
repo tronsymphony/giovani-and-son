@@ -1,0 +1,16 @@
+2020-09-17T02:38:33+00:00 CRITICAL Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:47) in /var/www/html/wp-content/plugins/woocommerce/woocommerce 2.php on line 46
+
+2020-09-17T02:38:34+00:00 CRITICAL Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:47) in /var/www/html/wp-content/plugins/woocommerce/woocommerce 2.php on line 46
+
+2020-09-17T02:38:34+00:00 CRITICAL Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:47) in /var/www/html/wp-content/plugins/woocommerce/woocommerce 2.php on line 46
+
+2020-09-17T04:50:02+00:00 CRITICAL syntax error, unexpected 'to' (T_STRING), expecting ')' in /var/www/html/wp-content/themes/wptemplate/functions.php on line 97
+
+2020-09-17T04:50:02+00:00 CRITICAL syntax error, unexpected 'to' (T_STRING), expecting ')' in /var/www/html/wp-content/themes/wptemplate/functions.php on line 97
+
+2020-09-17T04:50:02+00:00 CRITICAL syntax error, unexpected 'to' (T_STRING), expecting ')' in /var/www/html/wp-content/themes/wptemplate/functions.php on line 97
+
+2020-09-17T04:50:03+00:00 CRITICAL syntax error, unexpected 'to' (T_STRING), expecting ')' in /var/www/html/wp-content/themes/wptemplate/functions.php on line 97
+
+2020-09-17T04:51:55+00:00 CRITICAL syntax error, unexpected 'to' (T_STRING), expecting ')' in /var/www/html/wp-content/themes/wptemplate/functions.php on line 97
+
